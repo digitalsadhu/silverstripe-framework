@@ -237,9 +237,9 @@ The `GridFieldDetailForm` component drives the record viewing and editing form. 
 
 	:::php
 	$form = $gridField->getConfig()->getComponentByType('GridFieldDetailForm');
-	$form->setFields(new FieldList(
+	$form->setFields(new FieldList([
 		new TextField('Title')
-	));
+	]));
 
 ### many_many_extraFields
 
